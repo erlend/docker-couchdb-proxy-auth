@@ -1,4 +1,4 @@
-FROM couchdb:1
+FROM couchdb:1-couchperuser
 
 # Enable proxy authentication
 RUN sed -i /usr/local/etc/couchdb/default.ini \
